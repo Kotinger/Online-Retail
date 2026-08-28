@@ -4,9 +4,8 @@
 https://archive.ics.uci.edu/dataset/502/online+retail+ii
 Один xlsx, ~525k строк, зерно — позиция в чеке.
 
-Датасет: https://archive.ics.uci.edu/dataset/352/online+retail
 
-**Дашборд:** [вставь ссылку на Streamlit Cloud]
+**Дашборд:** [https://cronline-retai-maincat.streamlit.app/]
 
 ---
 

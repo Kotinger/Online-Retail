@@ -1,16 +1,20 @@
+from pathlib import Path
+
 import pandas as pd
 import plotly.express as px
 import streamlit as st
 
+DATA = Path(__file__).resolve().parent.parent / "data"
+
 
 @st.cache_data
 def load_clean():
-    return pd.read_parquet(r"data\clean.parquet")
+    return pd.read_parquet(DATA / "clean.parquet")
 
 
 @st.cache_data
 def load_customers():
-    return pd.read_parquet(r"data\customers.parquet")
+    return pd.read_parquet(DATA / "customers.parquet")
 
 
 @st.cache_data
