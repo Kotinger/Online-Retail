@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+*.pyc
+pass.txt
+data/*.xlsx
+doc/
