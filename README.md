@@ -117,4 +117,4 @@ Python (pandas, pyarrow), MySQL 8 (CTE, window, NTILE), Streamlit + plotly.
 
 ---
 
-tg @main_cat
+tg @cat_main
